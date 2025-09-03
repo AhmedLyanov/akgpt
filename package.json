@@ -1,0 +1,40 @@
+{
+  "name": "akgpt",
+  "version": "1.0.0",
+  "description": "A Node.js TypeScript library for interacting with FullAI models via their API.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "npm run build && node dist/example.js",
+    "example:choice": "npm run build && node dist/examples/choice.js",
+    "example:response": "npm run build && node dist/examples/poresponseem.js",
+    "example:json": "npm run build && node dist/examples/json.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedLyanov/akgpt.git"
+  },
+  "keywords": [
+    "ai",
+    "neural",
+    "network",
+    "a-k",
+    "project"
+  ],
+  "author": "DevAhmed",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "bugs": {
+    "url": "https://github.com/AhmedLyanov/akgpt/issues"
+  },
+  "homepage": "https://github.com/AhmedLyanov/akgpt#readme"
+}
