@@ -27,7 +27,7 @@ npm install akgpt
 
 ## Пример простого запроса
 ```
-import AKGPT from akgpt;
+import AKGPT from "akgpt";
 
 const client = new AKGPT();
 
@@ -41,7 +41,7 @@ const client = new AKGPT();
 
 ## Пример запроса в JSON формате
 ```
-import AKGPT from akgpt;
+import AKGPT from "akgpt";
 
 const client = new AKGPT();
 
@@ -53,7 +53,7 @@ const client = new AKGPT();
 
 ## Пример запроса с параметрами
 ```
-import AKGPT from akgpt;
+import AKGPT from "akgpt";
 
 const client = new AKGPT();
 
