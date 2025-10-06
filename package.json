@@ -1,6 +1,6 @@
 {
   "name": "akgpt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node.js TypeScript library for interacting with FullAI models via their API.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,9 +9,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "start": "npm run build && node dist/example.js",
-    "example:choice": "npm run build && node dist/examples/choice.js",
-    "example:response": "npm run build && node dist/examples/poresponseem.js",
-    "example:json": "npm run build && node dist/examples/json.js"
+    "parameters": "npm run build && node dist/examples/parameters.js",
+    "default": "npm run build && node dist/examples/default.js",
+    "json": "npm run build && node dist/examples/json.js",
+    "voice":"npm run build && node dist/examples/voice.js",
+    "models":"npm run build && node dist/examples/getModels.js"
   },
   "repository": {
     "type": "git",
